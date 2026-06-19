@@ -28,12 +28,13 @@ img {
 }
 
 a {
-    color: #3B82F6;
-    text-decoration: none;
+   text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #4964b7;
+    text-decoration: none;
+    transform: scale(1.05);
 }
 
 /* ─── Layout helpers ─────────────────────── */
@@ -59,9 +60,20 @@ a:hover {
 }
 
 .logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #3B82F6;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f0ad7a;
+}
+
+.nav-link{
+    color: #f6893b;
+}
+
+.nav-link:hover {
+    color: #4964b7;
+    text-decoration: underline;
+    transform: scale(1.05);
+
 }
 
 .nav {
@@ -71,7 +83,7 @@ a:hover {
 }
 
 .nav a {
-    color: #333333;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -79,8 +91,8 @@ a:hover {
 
 .btn, .btn-small {
     display: inline-block;
-    background: #3B82F6;
-    color: #ffffff;
+    background: #f6893b;
+    color: #4d3c3c;
     padding: 12px 28px;
     border-radius: 6px;
     font-weight: bold;
@@ -92,7 +104,8 @@ a:hover {
 }
 
 .btn:hover, .btn-small:hover {
-    background: #2563EB;
+    color: #4d3c3c;
+    background: #f6893b;
     text-decoration: none;
 }
 
@@ -149,8 +162,8 @@ a:hover {
 .step-num {
     width: 45px;
     height: 45px;
-    background: #3B82F6;
-    color: #ffffff;
+    background: #f6893b;
+    color: #4d3c3c;
     font-size: 20px;
     font-weight: bold;
     border-radius: 50%;
@@ -181,7 +194,7 @@ a:hover {
 .template-card {
     background: #ffffff;
     border-radius: 8px;
-    padding: 20px;
+    padding: 30px;
     max-width: 300px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
@@ -198,11 +211,11 @@ a:hover {
 }
 
 .box-1 {
-    background: #3B82F6;
+    background: #673906;
 }
 
 .box-2 {
-    background: #1E3A5F;
+    background: #673906;
 }
 
 .template-card h3 {
@@ -243,7 +256,7 @@ a:hover {
 .form-section h2 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #3B82F6;
+    color: #000000;
 }
 
 .field {
@@ -320,7 +333,7 @@ a:hover {
 }
 
 .model-option input[type="radio"]:checked + .model-preview {
-    outline: 3px solid #3B82F6;
+    outline: 3px solid #4840a9;
     outline-offset: 2px;
 }
 
